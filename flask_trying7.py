@@ -54,7 +54,7 @@ def search():
     else:
         results = []
 
-    return render_template('index.html', results=results)
+    return render_template('Index.html', results=results)
 
 if __name__ == '__main__':
     app.run(debug=True)
