@@ -39,7 +39,7 @@ def search():
         params["conditions[publication_date][lte]"] = request.form.get('end_date')
     
     if 'include_effectives_date' in request.form:
-        params["conditions[effective_date][gte]"] = request.form.get('start_date')
+        params["conditions[effective_date][gte]"] = request.form.get('include_start_date')
    
     if 'include_effective_year' in request.form:
         params["conditions[effective_date][year]"] = request.form.get('effective_year')
