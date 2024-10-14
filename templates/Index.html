@@ -113,7 +113,7 @@
             <label>
                 <input type="checkbox" name="include_cfr_title" checked> Include CFR Title
             </label>
-            <input type="number" name="cfr_title" value="20" min="1" placeholder="Enter CFR Title">
+            <input type="number" name="cfr_title" value="20" min="0" placeholder="Enter CFR Title">
         </div>
         <div>
             <label>
@@ -141,13 +141,13 @@
             <label>
                 <input type="checkbox" name="include_effective_date" checked> Include Effective Date on or after
             </label>
-            <input type="date" name="start_date">
+            <input type="date" name="start_date" value="01-01-2000">
         </div>
         <div>
             <label>
                 <input type="checkbox" name="include_effective_year" checked> Include Effective Date Year
             </label>
-            <input type="number" name="effective_year" value="2024" min="2000" placeholder="Enter Effective Date Year">
+            <input type="number" name="effective_year" value="2024" min="1900" placeholder="Enter Effective Date Year">
         </div>
             <div>
             <label>
