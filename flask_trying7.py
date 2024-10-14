@@ -11,7 +11,7 @@ def index():
 def search():
     api_url = "https://www.federalregister.gov/api/v1/documents.json"
     params = {
-        "per_page": request.form.get('per_page', 100),
+        "per_page": request.form.get('per_page', 1000),
         "order": "newest"
     }
 
